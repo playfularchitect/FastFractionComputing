@@ -8,16 +8,20 @@ WarpFrac is a Python library providing GPU accelerated arithmetic (CPU coming so
 
 The following benchmarks were recorded using the provided Google Colab notebooks.
 
-NVIDIA A100-SXM4-40GB (sm_80)
-Operation	Tera-Operations/s (TOPS)	Giga-Operations/s (GOPS)
-ADD	0.597	596.5
-MUL	1.303	1302.8
+### **NVIDIA A100-SXM4-40GB (sm_80)**
 
-Export to Sheets
-NVIDIA Tesla T4 (sm_75)
-Operation	Tera-Operations/s (TOPS)	Giga-Operations/s (GOPS)
-ADD	0.119	118.7
-MUL	0.253	253.4
+| Operation | Tera-Operations/s (TOPS) | Giga-Operations/s (GOPS) |
+| :-------- | :----------------------- | :----------------------- |
+| **ADD** | `0.597`                  | `596.5`                  |
+| **MUL** | `1.303`                  | `1302.8`                 |
+
+### **NVIDIA Tesla T4 (sm_75)**
+
+| Operation | Tera-Operations/s (TOPS) | Giga-Operations/s (GOPS) |
+| :-------- | :----------------------- | :----------------------- |
+| **ADD** | `0.119`                  | `118.7`                  |
+| **MUL** | `0.253`                  | `253.4`                  |
+
 
 
 
