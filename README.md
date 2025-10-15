@@ -31,7 +31,14 @@ The following benchmarks were recorded using the provided Google Colab notebooks
 
 
 ---
+## Why Exact Computation?
 
+Eliminate floating-point errors in:
+- Financial calculations
+- Engineering simulations  
+- Scientific computing
+- AI/ML training
+- Any application where precision matters
 ---
 
 ## Try It Now in Google Colab (No Install Needed!)
