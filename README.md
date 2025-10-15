@@ -23,6 +23,10 @@ The following benchmarks were recorded using the provided Google Colab notebooks
 | **MUL** | `0.253`                  | `253.4`                  |
 
 
+* Achieving 1.3 Tera-Operations/sec for exact rational multiplication - 
+ faster than hardware floating-point on the same GPU while maintaining 
+ mathematical perfection.
+
 
 
 ---
