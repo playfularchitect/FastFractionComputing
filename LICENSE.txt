@@ -1,0 +1,6 @@
+Copyright (c) 2025 WarpFrac.
+All rights reserved.
+
+Binary-only distribution. No permission is granted to reverse engineer,
+decompile, disassemble, or otherwise derive source or intermediate representations
+of the included GPU binaries (.cubin). See EULA for full terms.
