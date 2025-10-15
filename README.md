@@ -48,6 +48,12 @@ Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Down
 * **[Run on NVIDIA A100 (sm_80)](https://colab.research.google.com/drive/1_SkNBhIuaPKxpV_sR03KARBqv18wlN-z?usp=sharing)**
 * **[Run on NVIDIA T4 (sm_75)](https://colab.research.google.com/drive/1fEjF9ZdXFeDjiIXqqXXoekVbg3U5-QMF?usp=sharing)**
 
+## Use Cases
+
+- Financial modeling with exact decimal arithmetic
+- Engineering simulations without error accumulation
+- Scientific computing with verifiable results
+- AI/ML training with perfect reproducibility
 
 
 ## Requirements For Personal Machines
@@ -66,3 +72,9 @@ This software is distributed under a binary only license. **Source code is not a
 * Please see the `LICENSE.txt` file for copyright information.
 * Refer to `EULA.txt` for the full End-User License Agreement.
 * **Note**: External publication of benchmarks requires prior written consent from me, Evan Wesley, The Smartest Idiot Alive.
+
+
+### API Overview
+```python
+import warpfrac
+
