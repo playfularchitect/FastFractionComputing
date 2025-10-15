@@ -1,6 +1,6 @@
 # WarpFrac — High-Performance GPU Fraction Arithmetic
 
-WarpFrac is a Python library providing GPU-accelerated arithmetic (CPU coming soon!) for fractions using precompiled, high-performance CUDA kernels. This is a **binary-only evaluation release** and is not open-source.
+WarpFrac is a Python library providing GPU accelerated arithmetic (CPU coming soon!) for fractions using precompiled, high performance CUDA kernels. This is a **binary only evaluation release** and is not open source.
 
 ---
 
@@ -19,7 +19,7 @@ The following benchmarks were recorded on an **NVIDIA A100 (sm_80)** GPU.
 
 ## Try It Now in Google Colab (No Install Needed!)
 
-Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Download The Files From The Releases Folder First!)
+Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Download The 4 Warpfrac Files From The Releases Folder First, You Need Them For The Colab Demo!)
 
 * **[Run on NVIDIA A100 (sm_80)](https://colab.research.google.com/drive/1_SkNBhIuaPKxpV_sR03KARBqv18wlN-z?usp=sharing)**
 * **[Run on NVIDIA T4 (sm_75)](https://colab.research.google.com/drive/1fEjF9ZdXFeDjiIXqqXXoekVbg3U5-QMF?usp=sharing)**
@@ -37,7 +37,7 @@ Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Down
 
 ## License & Terms of Use
 
-This software is distributed under a binary-only license. **Source code is not available, and reverse engineering, decompiling, or disassembling the binaries is strictly prohibited.**
+This software is distributed under a binary only license. **Source code is not available, and reverse engineering, decompiling, or disassembling the binaries is strictly prohibited.**
 
 * Please see the `LICENSE.txt` file for copyright information.
 * Refer to `EULA.txt` for the full End-User License Agreement.
