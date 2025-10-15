@@ -1,4 +1,4 @@
-Copyright (c) 2025 WarpFrac.
+Copyright (c) 2025 Evan Wesley.
 All rights reserved.
 
 Binary-only distribution. No permission is granted to reverse engineer,
