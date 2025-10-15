@@ -43,7 +43,7 @@ Eliminate floating-point errors in:
 
 ## Try It Now in Google Colab (No Install Needed!)
 
-Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Download The 4 Warpfrac Files From The Releases Folder First, You Need Them For The Colab Demo!)
+Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Download The 4 Warpfrac Files From The Releases Folder First, You Need Them For The Colab Demo! Make sure you run the demo using a T4/A100 GPU runtime!)
 
 * **[Run on NVIDIA A100 (sm_80)](https://colab.research.google.com/drive/1_SkNBhIuaPKxpV_sR03KARBqv18wlN-z?usp=sharing)**
 * **[Run on NVIDIA T4 (sm_75)](https://colab.research.google.com/drive/1fEjF9ZdXFeDjiIXqqXXoekVbg3U5-QMF?usp=sharing)**
