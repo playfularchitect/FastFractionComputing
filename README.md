@@ -15,56 +15,14 @@ The following benchmarks were recorded on an **NVIDIA A100 (sm_80)** GPU.
 
 ---
 
-## Requirements
-
-* An NVIDIA GPU with one of the following compute capabilities:
-    * **sm_75** (Turing Architecture, e.g., RTX 20-series)
-    * **sm_80** (Ampere Architecture, e.g., A100)
-    * **sm_86** (Hopper Architecture, e.g., H100)
-* Python 3.x
-* NVIDIA CUDA Toolkit compatible with your driver.
-(You need Linux, if have mac use the colab stuff!)
 ---
 
-## Installation 
+## Try It Now in Google Colab (No Install Needed!)
 
-1.  Navigate to the [Releases page](link-to-your-releases-page).
-2.  Download the wheel file (`.whl`) and the checksum file (`.sha256`).
-3.  (Optional) Verify the integrity of the download:
-    ```bash
-    sha256sum -c warpfrac-2025.10.14.1855-py3-none-any.whl.sha256
-    ```
-4.  Install the wheel using pip:
-    ```bash
-    pip install warpfrac-2025.10.14.1855-py3-none-any.whl
-    ```
+Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU.
 
----
-
-## Usage
-
-### Command-Line Demo
-
-Run a quick performance benchmark from your terminal:
-```bash
-warpfrac-demo
-```
-
-### Programmatic API
-
-Use WarpFrac directly in your Python scripts. The functions return a dictionary containing performance metrics (`ops`, `sec`, `gops`, `tops`).
-
-```python
-import warpfrac as wf
-
-# Run the addition benchmark
-add_results = wf.headline_add()
-print(f"Addition results: {add_results}")
-
-# Run the multiplication benchmark
-mul_results = wf.headline_mul()
-print(f"Multiplication results: {mul_results}")
-```
+* **[Run on NVIDIA A100 (sm_80)](https://colab.research.google.com/drive/1_SkNBhIuaPKxpV_sR03KARBqv18wlN-z?usp=sharing)**
+* **[Run on NVIDIA T4 (sm_75)](https://colab.research.google.com/drive/1fEjF9ZdXFeDjiIXqqXXoekVbg3U5-QMF?usp=sharing)**
 
 ---
 
