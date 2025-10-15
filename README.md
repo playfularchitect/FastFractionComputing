@@ -24,6 +24,15 @@ Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Down
 * **[Run on NVIDIA A100 (sm_80)](https://colab.research.google.com/drive/1_SkNBhIuaPKxpV_sR03KARBqv18wlN-z?usp=sharing)**
 * **[Run on NVIDIA T4 (sm_75)](https://colab.research.google.com/drive/1fEjF9ZdXFeDjiIXqqXXoekVbg3U5-QMF?usp=sharing)**
 
+
+
+## Requirements For Personal Machines
+
+* **An NVIDIA GPU running on a Linux operating system.**
+* Python 3.x
+* NVIDIA CUDA Toolkit compatible with your driver.
+
+**Note:** This software is not compatible with macOS or Windows as it requires direct access to NVIDIA hardware. For a live demonstration, please use the Google Colab links above.
 ---
 
 ## License & Terms of Use
