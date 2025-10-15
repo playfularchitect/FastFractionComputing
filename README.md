@@ -19,7 +19,7 @@ The following benchmarks were recorded on an **NVIDIA A100 (sm_80)** GPU.
 
 ## Try It Now in Google Colab (No Install Needed!)
 
-Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU.
+Click the links below to run a live demo of WarpFrac on a real NVIDIA GPU. (Download The Files From The Releases Folder First!)
 
 * **[Run on NVIDIA A100 (sm_80)](https://colab.research.google.com/drive/1_SkNBhIuaPKxpV_sR03KARBqv18wlN-z?usp=sharing)**
 * **[Run on NVIDIA T4 (sm_75)](https://colab.research.google.com/drive/1fEjF9ZdXFeDjiIXqqXXoekVbg3U5-QMF?usp=sharing)**
