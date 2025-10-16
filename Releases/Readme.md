@@ -1,4 +1,4 @@
-1. Download the 4 files starting with warpfrac
+1. Download the 3 files starting with warpfrac
 
 2. Open Colab Using Provided Links
 
