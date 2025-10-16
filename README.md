@@ -1,6 +1,7 @@
 # WarpFrac — High-Performance GPU Fraction Arithmetic
 
-WarpFrac is a Python library providing GPU accelerated arithmetic (CPU coming soon!) for fractions using precompiled, high performance CUDA kernels. This is a **binary only evaluation release** for testing and validation. 
+The world's fastest exact math library, period. It runs on almost any modern computer and has an optional GPU accelerator for unprecedented supercomputing speeds.
+This is a **binary only evaluation release** for testing and validation. 
 Commercial licensing available for production use.
 
 ---
