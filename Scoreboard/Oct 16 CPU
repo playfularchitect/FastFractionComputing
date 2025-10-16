@@ -1,0 +1,13 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        CONTEXTUAL PERFORMANCE RANKING                       ║
+╠═══════════════════════════╦══════════════╦══════════════════════════════════╣
+║        Technology         ║  Performance ║          Comparison              ║
+╠═══════════════════════════╬══════════════╬══════════════════════════════════╣
+║ Python fractions          ║  0.00004 G   ║ Bicycle                          ║
+║ GMP rational (best CPU)   ║  0.0002 G    ║ Sports car                       ║
+║ Traditional expectation   ║  0.001 G     ║ Small plane                      ║
+║ WarpFrac early CPU        ║  3.144 G     ║ Jet                              ║
+║ WarpFrac best CPU         ║  147.8 G     ║ Rocket                           ║
+║ WarpFrac T4 GPU           ║  253 G       ║ Starship                         ║
+║ WarpFrac A100 GPU         ║  1,303 G     ║ Hyperspace                       ║
+╚═══════════════════════════╩══════════════╩══════════════════════════════════╝
