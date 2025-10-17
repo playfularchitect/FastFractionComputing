@@ -1,0 +1,40 @@
+
+echo
+echo "=== GPU OPS ACCOUNTING (bigger logical) ==="
+./g001_cuda_ops --N 20000000 --threads 256 --unroll 16 --fopsx 4096 --secs 0.35
+
+=== CPU OPS ACCOUNTING (quick) ===
+============================================================================
+ [M051_OPS] ISA=AVX-512 | N=8000000 fopsx=64 secs=0.13 threads=2 unroll=16 prefetch=64
+  Logical Ops Rate:       11.61853 G-ops/s   (legacy: 3*N*fopsx / secs)
+  Kernel Updates Rate:    0.18154 G-upd/s   (legacy: 3*N       / secs)
+  Modular Ops Rate:       7.74569 G-mod/s   (= 2*N*fopsx / secs)
+  Primitive Int Ops Rate: 30.98275 G-ops/s   (~ 4 * modular ops)
+  STRICT64 hash(first 50k)=0x83f61680ff3fc218
+============================================================================
+
+=== GPU OPS ACCOUNTING (quick) ===
+============================================================================
+ GPU DETECTED  Tesla T4  SM_75  MPs=40  MaxThreads/Block=1024
+============================================================================
+============================================================================
+ [G001_OPS] cfg=B320xT256 U=16 | N=8000000 fopsx=64 secs=0.10
+  Logical Ops Rate:       15.25535 G-ops/s   (legacy: 3*N*fopsx / secs)
+  Kernel Updates Rate:    0.23836 G-upd/s   (legacy: 3*N       / secs)
+  Modular Ops Rate:       10.17023 G-mod/s   (= 2*N*fopsx / secs)  
+  Primitive Int Ops Rate: 40.68093 G-ops/s   (~ 4 * modular ops)
+  STRICT64 hash(first 50k)=0x37b379811ddc01a9
+============================================================================
+
+=== GPU OPS ACCOUNTING (bigger logical) ===
+============================================================================
+ GPU DETECTED  Tesla T4  SM_75  MPs=40  MaxThreads/Block=1024
+============================================================================
+============================================================================
+ [G001_OPS] cfg=B320xT256 U=16 | N=20000000 fopsx=4096 secs=0.40
+  Logical Ops Rate:       612.65502 G-ops/s   (legacy: 3*N*fopsx / secs)
+  Kernel Updates Rate:    0.14957 G-upd/s   (legacy: 3*N       / secs)
+  Modular Ops Rate:       408.43668 G-mod/s   (= 2*N*fopsx / secs)  
+  Primitive Int Ops Rate: 1633.74673 G-ops/s   (~ 4 * modular ops)
+  STRICT64 hash(first 50k)=0x1cff1862541dc5f4
+============================================================================
