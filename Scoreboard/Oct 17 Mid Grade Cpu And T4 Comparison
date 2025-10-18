@@ -38,3 +38,17 @@ echo "=== GPU OPS ACCOUNTING (bigger logical) ==="
   Primitive Int Ops Rate: 1633.74673 G-ops/s   (~ 4 * modular ops)
   STRICT64 hash(first 50k)=0x1cff1862541dc5f4
 ============================================================================
+
+
+
+UPDATE — October 18, 2025
+
+The previously posted raw tuning values and quick logs were from a pre-autotune, non-representative build.
+Current builds use an internal autotuner and preset labels (no fixed knobs).
+
+Public numbers should cite a preset only, e.g.:
+  Preset: Alpha — 2 threads, AVX2 → effective ≈ 2,636 Gops/s (from repeated runs under controlled conditions).
+
+If you need full reproduction details, contact for commercial access. 
+Benchmarks in old commits are deprecated and not guidance for current releases.
+
