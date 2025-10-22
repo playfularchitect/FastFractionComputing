@@ -41,14 +41,5 @@ echo "=== GPU OPS ACCOUNTING (bigger logical) ==="
 
 
 
-UPDATE — October 18, 2025
 
-The previously posted raw tuning values and quick logs were from a pre-autotune, non-representative build.
-
-
-Public numbers should cite a preset only, e.g.:
-Preset: Alpha (hardware-adaptive) — 2 threads, AVX2 → effective ≈ 2,636 Gops/s (stable across repeated measurements).
-
-If you need full reproduction details, contact for commercial access. 
-Benchmarks in old commits are deprecated and not guidance for current releases.
 
