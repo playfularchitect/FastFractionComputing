@@ -13,10 +13,3 @@
 
 
 
-WarpFrac End-User License Agreement (EULA)
-
-License: You are granted a non-transferable, non-exclusive right to execute the included GPU binary kernels (.cubin) on NVIDIA GPUs for evaluation or demonstration only.
-Restrictions: No reverse engineering, decompiling, disassembling, or attempting to derive source or intermediate representations of the binaries is permitted.
-Benchmarking: External publication of benchmarks requires prior written consent.
-NO WARRANTY: Software provided "AS IS" without warranty of any kind.
-By installing or using the package, you agree to these terms.
